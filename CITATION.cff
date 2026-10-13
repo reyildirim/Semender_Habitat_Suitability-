@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: Mertensiella caucasica GIS Habitat Suitability - Data Preparation Workflow
+message: If you use this workflow, please cite the associated article.
+type: software
+authors:
+  - family-names: Yildirim
+    given-names: Ridvan
+    email: ridvan.yildirim@omu.edu.tr
+    affiliation: Ondokuz Mayis University
+repository-code: https://github.com/reyildirim/Semender_Habitat_Suitability
+abstract: >-
+  Open-source geospatial data-preparation workflow for the multi-criteria
+  habitat suitability assessment of the Caucasian salamander (Mertensiella
+  caucasica sensu lato) across its transboundary range in north-eastern Turkiye
+  and Georgia.
+keywords:
+  - habitat suitability
+  - Analytic Hierarchy Process
+  - GIS
+  - amphibian conservation
+  - Mertensiella caucasica
+  - Caucasus

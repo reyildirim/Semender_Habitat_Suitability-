@@ -1,0 +1,24 @@
+# Core geospatial stack
+numpy
+pandas
+scipy
+shapely
+geopandas
+rasterio
+requests
+
+# OpenStreetMap road extraction
+osmnx
+
+# Google Earth Engine route (optional; not needed for `download-data`)
+earthengine-api
+geemap
+
+# Data report writing
+python-docx
+
+# Not installable from PyPI:
+#   GDAL/OGR (osgeo, ogr2ogr) - ships with QGIS; run the OSM scripts with the
+#     QGIS Python interpreter.
+#   arcpy - ships with ArcGIS Pro; required only for the suitability modelling
+#     steps, which are not scripted in this repository.

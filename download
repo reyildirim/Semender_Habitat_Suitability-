@@ -1,0 +1,34 @@
+# Generated layers - several GB, fully reproducible from the scripts
+Data/
+Raw_Data/
+outputs/
+*.tif
+*.tif.aux.xml
+*.gdb/
+!aoi/AOI_Boundary.gpkg
+
+# Caches and scratch
+_cache/
+_vectors/
+_osm_clip_work/
+_roadextract_work/
+*.vrt
+*.sr.lock
+*.tmp_rtree_*.db
+
+# Large source extracts
+*.osm.pbf
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
